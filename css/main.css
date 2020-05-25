@@ -3835,3 +3835,13 @@ td {
 .colspan {
     text-align: center;
 }
+
+@media (min-width:776px) and (max-width:1280px) {
+    body .links .link-lvl-1 {
+        margin: 10px 0;
+        display: inline-block;
+    }
+    body footer nav ul {
+        flex-wrap: wrap;
+    }
+}
